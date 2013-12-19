@@ -21,6 +21,8 @@
   <string name="acessibility_cal_notification">Известия от Календар</string>
   <string name="acessibility_selected_marker_description">Избрано събитие</string>
   <string name="acessibility_snooze_notification">Отлагане на събитието</string>
+  <string name="activity_summary">10 yuan лотария</string>
+  <string name="activity_title">MIUI подаръци за нова година</string>
   <string name="add_account">Добави профил</string>
   <string name="agenda_today">Днес, %1$s</string>
   <string name="agenda_tomorrow">Утре, %1$s</string>
