@@ -133,6 +133,8 @@
   <string name="failed_to_add_media">Обектът %1$s не може да бъде добавен в съобщението.</string>
   <string name="failed_to_resize_image">Изображението не е преоразмерено.</string>
   <string name="fdn_check_failure">Можете да изпращате съобщения само до вашите разрешени номера.</string>
+  <string name="feedback_description_hint">Моля въведете вашия коментар тук</string>
+  <string name="feedback_submit">Изпрати</string>
   <string name="festival">Поздравления</string>
   <string name="festival_sms_category_count_format">(%s)</string>
   <string name="festival_sms_loading">Зареждане...</string>
@@ -260,6 +262,7 @@
   <string name="prefDefault_vibrate_true">always</string>
   <string name="pref_advanced_settings_title">Разширени настройки</string>
   <string name="pref_edit_smsc_address">Номер на SMS-център</string>
+  <string name="pref_key_mx_feedback">Изпрати коментар</string>
   <string name="pref_messages_to_save">Задай броя на съобщения за запазване в кореспонденцията</string>
   <string name="pref_mms_settings_title">Настройки на съобщения (MMS)</string>
   <string name="pref_notification_settings_title">Настройки на известия</string>
@@ -273,6 +276,7 @@
   <string name="pref_summary_mms_auto_retrieval">Автоматично зареждане на съобщения</string>
   <string name="pref_summary_mms_read_reports">Изискване на потвърждение за прочитане за всяко изпратено съобщение</string>
   <string name="pref_summary_mms_retrieval_during_roaming">Автоматично зареждане на съобщения в роуминг</string>
+  <string name="pref_summary_mx_feedback">"Помогнете ни да подобрим MIUI! Изпратете вашите коментари до Xiaomi.”</string>
   <string name="pref_summary_new_message_popup">Покажи изскачащ прозорец при ново съобщение</string>
   <string name="pref_summary_new_message_popup_when_secure">Въведете паролата си за да видите изскачащия прозорец</string>
   <string name="pref_summary_notification_body_enabled">Преглед на съобщения на заключен екран и в лентата с известия</string>
@@ -409,6 +413,10 @@
   <string name="to_count">Всичко: %d</string>
   <string name="to_label">"До "</string>
   <string name="to_send_wrapper">Ще бъде изпратено в %s</string>
+  <string name="toast_description_required">Трябва да изпратите коментар</string>
+  <string name="toast_feedback_finish">Вашият коментар ще се изпрати автоматично когато се свържите с Wi-Fi мрежа</string>
+  <string name="toast_feedback_max">Може да изпращате по 3 коментара на ден</string>
+  <string name="toast_feedback_start">Изпращане на коментар…</string>
   <string name="too_many_attachments">Има ограничение за %1$s прикачени файла. Ще бъде прикачен: %2$s.</string>
   <string name="too_many_recipients">Съобщението има твърде много получатели (%1$s). Има ограничение за %2$s получатели.</string>
   <string name="too_many_unsent_mms">"Не може да изпратите съобщението веднага. Има твърде много неизпратени MMS."</string>
