@@ -526,6 +526,7 @@
   <string name="button_text_delete">Изтрий</string>
   <string name="button_text_done">Готово</string>
   <string name="button_text_fix">Поправи</string>
+  <string name="button_text_quick_scan">Търсене</string>
   <string name="button_text_security">Безопасност</string>
   <string name="button_text_view">Преглед</string>
   <string name="cache_garbage">Кеш файлове</string>
@@ -760,8 +761,14 @@
   <string name="debug_log">Регистър за отстр. на грешки</string>
   <string name="debug_monitoring_category">Мониторинг</string>
   <string name="deep_clean_tips_cache">"icon Някои приложения използват кеш файлове за изтегляне на добавки (например текстове на песни, музика, снимки и т.н.) Бъдете внимателни при почистване на тези файлове."</string>
+  <string name="deep_clean_tips_cache_content">"Някои приложения използват кеша за допълнителни ресусрси. Внимавайте преди да изтриете тези файлове."</string>
+  <string name="deep_clean_tips_cache_title">Кеширани файлове</string>
   <string name="deep_clean_tips_large_file">icon Почистването посочва само големите файлове (напр. по-големи от 10MB), които са съхранени в устройството. Само вие ще трябва да решите дали те все още са необходими.</string>
+  <string name="deep_clean_tips_large_file_content">По-големите файлове (10MB+) ще заемат повече място на вашия телефон.</string>
+  <string name="deep_clean_tips_large_file_title">Големи файлове</string>
   <string name="deep_clean_tips_residual">"icon Остатъчни файлове (напр. видео, тапети, музика и т.н.) са тези, изтеглени на устройството Ви от приложения, които вече сте деинсталирали. Бъдете внимателни при изтриването им, тъй като някой от тях може все още да е полезен за Вас."</string>
+  <string name="deep_clean_tips_residual_content">"Residual files downloaded to SD card by apps that have since been uninstalled"</string>
+  <string name="deep_clean_tips_residual_title">Residual files</string>
   <string name="deep_clean_title_cache">Кеш</string>
   <string name="deep_clean_title_large_file">Големи файлове</string>
   <string name="deep_clean_title_residual">Остатъчни файлове</string>
@@ -1559,9 +1566,17 @@ for MAC"</li>"
   <string name="optimize_residual_header_left">Остатъчни файлове: %d</string>
   <string name="optimize_residual_list_empty_content">Няма остатъчни файлове.</string>
   <string name="optimize_tips_ad">icon Рекламните файлове са  изображения, текстове и други реклами, които се изтеглят на вашето устройство.</string>
+  <string name="optimize_tips_ad_content">Images, text and other ad-related content via third-party providers stored on your phone.</string>
+  <string name="optimize_tips_ad_title">Рекламни файлове</string>
   <string name="optimize_tips_apk">"icon Инсталационните файлове са пакети, които се използват за инсталиране на приложения на вашето устройство. Те не са опасни, но заемат излишно място в хранилището."</string>
+  <string name="optimize_tips_apk_content">"Used to install apps on your device, however they don't do anything once you've already installed the app."</string>
+  <string name="optimize_tips_apk_title">Приложения</string>
   <string name="optimize_tips_cache">icon Кеш файловете са създадени от процеси, които се нуждаят от тях само временно (например миниатюри).</string>
+  <string name="optimize_tips_cache_content">Temporary files created by apps and processes (e.g. thumbnails).</string>
+  <string name="optimize_tips_cache_title">Кеш</string>
   <string name="optimize_tips_residual">"icon Остатъчните файлове (например видео, тапети, музика и т.н.), са такива които са били изтеглени във вашето устройство от приложения, които вече са деинсталирани."</string>
+  <string name="optimize_tips_residual_content">Residual content created by apps which have been uninstalled. Some files may still be required, we recommended you use the advanced cleanup feature to remove these files.</string>
+  <string name="optimize_tips_residual_title">Residual content</string>
   <string name="optimize_tips_title">Помощ</string>
   <string name="optimize_title_ad">Реклама</string>
   <string name="optimize_title_apk">Пакети</string>
@@ -1582,6 +1597,7 @@ for MAC"</li>"
   <string name="perm_app">Приложения</string>
   <string name="perm_app_enable">Монитор на разрешения</string>
   <string name="perm_app_header">Разрешения</string>
+  <string name="perm_app_manage_empty">No monitored apps</string>
   <string name="perm_app_name">Разрешения</string>
   <string name="perm_app_title">Управление на разрешенията на приложения</string>
   <string name="perm_auto_start">Управление на авт. старт на приложения</string>
@@ -1709,6 +1725,7 @@ for MAC"</li>"
   <string name="perm_privacy_app_trust_summary_on">MIUI ще се довери на това приложение</string>
   <string name="perm_privacy_app_uninstall">Деинсталиране</string>
   <string name="perm_privacy_count">Разрешени: %1$d Забранени: %2$d</string>
+  <string name="perm_root_manage_empty">No apps with ROOT permission</string>
   <string name="perm_service_disabled">Услугата не е активна</string>
   <string name="perm_service_enabled">Услугата е активирана</string>
   <string name="perm_shortcut">Контекстно меню</string>
@@ -2016,6 +2033,7 @@ for MAC"</li>"
   <string name="quick_scan_apk_list_item_version_hit">Версия: %s</string>
   <string name="quick_scan_cleaning_title">Почистване...</string>
   <string name="quick_scan_doing_title">Сканиране...</string>
+  <string name="quick_scan_done_title">Сканирането завърши!</string>
   <string name="quick_scan_list_loading_hits">Сканиране...</string>
   <string name="quick_scan_result_summary">Почистването ще започне след %d сек.</string>
   <string name="quick_scan_result_title">Намерени %s елементи</string>
